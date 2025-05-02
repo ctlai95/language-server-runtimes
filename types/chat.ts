@@ -133,7 +133,7 @@ export interface Button {
 }
 
 export interface ChatMessage {
-    type?: 'answer' | 'prompt' | 'system-prompt' | 'directive' | 'tool' // will default to 'answer'
+    type?: 'answer' | 'answer-stream' | 'prompt' | 'system-prompt' | 'directive' | 'tool' // will default to 'answer'
     header?: Omit<ChatMessage, 'header'> & {
         icon?: IconType
         status?: { status?: Status; icon?: IconType; text?: string }
