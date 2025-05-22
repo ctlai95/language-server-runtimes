@@ -1,5 +1,65 @@
 # Changelog
 
+## [0.2.0](https://github.com/ctlai95/language-server-runtimes/compare/language-server-runtimes-types/v0.1.31...language-server-runtimes-types/v0.2.0) (2025-05-22)
+
+
+### ⚠ BREAKING CHANGES
+
+* **types:** update the version of package to next minor. This commit does not actually contain a breaking change, only to trigger a release.
+
+### Features
+
+* add additional messages in support of the final response ([bc7522a](https://github.com/ctlai95/language-server-runtimes/commit/bc7522a690520731facf7dee8eccaf6468fc94df))
+* add buttonClick event to chat ([#464](https://github.com/ctlai95/language-server-runtimes/issues/464)) ([32b3bb9](https://github.com/ctlai95/language-server-runtimes/commit/32b3bb9cca7bf09d412e87cc9e062ac99d847bd2))
+* add contextList to chat message for supporting context transparency ([#401](https://github.com/ctlai95/language-server-runtimes/issues/401)) ([839247d](https://github.com/ctlai95/language-server-runtimes/commit/839247d3be76e419030d364ffefb13e5f5a02ef9))
+* add displayLocation property and inlineEditSupport capability for tab-tab-tab workflow ([#492](https://github.com/ctlai95/language-server-runtimes/issues/492)) ([b7c4718](https://github.com/ctlai95/language-server-runtimes/commit/b7c4718b9bd84e08e72b992da5d699549af9f115))
+* add extension for inline chat ([#391](https://github.com/ctlai95/language-server-runtimes/issues/391)) ([52abd83](https://github.com/ctlai95/language-server-runtimes/commit/52abd839b396c92863bca18c9bb33a7875192c3d))
+* add LSP extension for sending telemetry for inline chat result action ([#408](https://github.com/ctlai95/language-server-runtimes/issues/408)) ([26c7a0f](https://github.com/ctlai95/language-server-runtimes/commit/26c7a0f43aaf535fcec6d081fd9bee0ecfd2c13f))
+* add new lsp extension to send dependency information from client to servers ([#338](https://github.com/ctlai95/language-server-runtimes/issues/338)) ([cbaf65f](https://github.com/ctlai95/language-server-runtimes/commit/cbaf65fa67df3173ded718b7c93b29054129d3c7))
+* add protocol for export chat history ([#418](https://github.com/ctlai95/language-server-runtimes/issues/418)) ([c31fadc](https://github.com/ctlai95/language-server-runtimes/commit/c31fadc36752d3300d53fc22b59e66f07ecc75ac))
+* added chat history protocol ([#410](https://github.com/ctlai95/language-server-runtimes/issues/410)) ([a4fcef6](https://github.com/ctlai95/language-server-runtimes/commit/a4fcef6459f4224a6bf16d3ce6e88ef326fec3aa))
+* adding new params for mcp servers buttons ([#502](https://github.com/ctlai95/language-server-runtimes/issues/502)) ([73fd208](https://github.com/ctlai95/language-server-runtimes/commit/73fd20806f94d7134f6a24f39353c6b53f991e91))
+* context support in protocol ([#404](https://github.com/ctlai95/language-server-runtimes/issues/404)) ([70b8507](https://github.com/ctlai95/language-server-runtimes/commit/70b8507f1c95a79d74c49e7153e772d11372dc65))
+* extend tabdata interface to include support for welcome screen ([#411](https://github.com/ctlai95/language-server-runtimes/issues/411)) ([68354d9](https://github.com/ctlai95/language-server-runtimes/commit/68354d9e51b17637c91bcf79e320df3fd0975678))
+* extended protocol for conversation-based agents experience support ([#368](https://github.com/ctlai95/language-server-runtimes/issues/368)) ([0bc496e](https://github.com/ctlai95/language-server-runtimes/commit/0bc496ea8d9411b68efe7901168f5f8257a61a8e))
+* extended UI and protocol types for openning settings ([#474](https://github.com/ctlai95/language-server-runtimes/issues/474)) ([f622458](https://github.com/ctlai95/language-server-runtimes/commit/f622458baeea7df72e1b3ce91d002faecc745f89))
+* notifications to client about file system operations ([#500](https://github.com/ctlai95/language-server-runtimes/issues/500)) ([a7efcf8](https://github.com/ctlai95/language-server-runtimes/commit/a7efcf8052ec382d3c4cd706059873b0b44fb314))
+* protocol extensions for chat tab actions and export features ([#433](https://github.com/ctlai95/language-server-runtimes/issues/433)) ([10019fe](https://github.com/ctlai95/language-server-runtimes/commit/10019fe875658ac46bf26b995d01416a852e2432))
+* show dev profile protocol changes ([#432](https://github.com/ctlai95/language-server-runtimes/issues/432)) ([730460c](https://github.com/ctlai95/language-server-runtimes/commit/730460cdcc77341c2731b9064ab1eb6297ec4a64))
+* support additional chat message content to enable tool use ([68319c9](https://github.com/ctlai95/language-server-runtimes/commit/68319c975d29a8ba9b084c9fa780ebff75b286bb))
+* support file snapshot for diffs ([#486](https://github.com/ctlai95/language-server-runtimes/issues/486)) ([9a52fd7](https://github.com/ctlai95/language-server-runtimes/commit/9a52fd7c9558e1cf90641cd6147aa2cec330cb89))
+* support status in header ([#477](https://github.com/ctlai95/language-server-runtimes/issues/477)) ([a4812d4](https://github.com/ctlai95/language-server-runtimes/commit/a4812d4e12a25bd0cc2abff1ff31a971fdabe59f))
+* **types:** add context to ChatParams ([cea7a71](https://github.com/ctlai95/language-server-runtimes/commit/cea7a71be95a8ea7847188e36d803bb2759c6f87))
+* **types:** add imports to InlineCompletionItemWithReferences type ([#388](https://github.com/ctlai95/language-server-runtimes/issues/388)) ([e16977c](https://github.com/ctlai95/language-server-runtimes/commit/e16977c0da3c343377079e3686f4d637363427d8))
+* **types:** add next token to inline completion interface ([d42a832](https://github.com/ctlai95/language-server-runtimes/commit/d42a832a70d0ee23d4cde18c8771bf46b2f18048))
+* **types:** add prompt input option change ([#449](https://github.com/ctlai95/language-server-runtimes/issues/449)) ([dea0fb9](https://github.com/ctlai95/language-server-runtimes/commit/dea0fb99acb3fc3b2231a239b98593bfbbb9292e))
+* **types:** updated readme ([#290](https://github.com/ctlai95/language-server-runtimes/issues/290)) ([4a3cc75](https://github.com/ctlai95/language-server-runtimes/commit/4a3cc7588ddd24b8dd23865649be675ebcce706c))
+* update protocol for regions use cases ([#355](https://github.com/ctlai95/language-server-runtimes/issues/355)) ([50ef5c7](https://github.com/ctlai95/language-server-runtimes/commit/50ef5c78e5d3e0c67c47b32ed147b7e21fee8116))
+
+
+### Bug Fixes
+
+* add requestId to InlineChat response ([#403](https://github.com/ctlai95/language-server-runtimes/issues/403)) ([3bee702](https://github.com/ctlai95/language-server-runtimes/commit/3bee70222b6d9bd3e5bde3b046593be2e80b8d4c))
+* adding mcp interfaces ([#514](https://github.com/ctlai95/language-server-runtimes/issues/514)) ([ed961cc](https://github.com/ctlai95/language-server-runtimes/commit/ed961ccf87180e97d2b5d1945ae31d03f84fc2a8))
+* adding summary to ChatMessage ([#521](https://github.com/ctlai95/language-server-runtimes/issues/521)) ([6c18c44](https://github.com/ctlai95/language-server-runtimes/commit/6c18c4437ac4c90c818abcb22e0d7e7b2bdb187c))
+* buttons should be optional ([c630c78](https://github.com/ctlai95/language-server-runtimes/commit/c630c784e0c6d60f8f01e1f1b2bb9982abcc8cc8))
+* file click outside of workspace crashes whole process ([#481](https://github.com/ctlai95/language-server-runtimes/issues/481)) ([a91623f](https://github.com/ctlai95/language-server-runtimes/commit/a91623feecc4aab8766b13cda1b45a7db62453f3))
+* header icon should be optional ([5bebbe8](https://github.com/ctlai95/language-server-runtimes/commit/5bebbe8106dd536e3cf5701341868cee0e8cb43a))
+* missing messageId in fileClickParams ([#469](https://github.com/ctlai95/language-server-runtimes/issues/469)) ([4515a29](https://github.com/ctlai95/language-server-runtimes/commit/4515a2960a90c1d89fc488740b80672bbe930e3a))
+* support nested mcm server click param option ([#523](https://github.com/ctlai95/language-server-runtimes/issues/523)) ([35c7d64](https://github.com/ctlai95/language-server-runtimes/commit/35c7d64f24d1b2a280a29d07c17d2afbfb7dd97d))
+* **types:** fixed publish package contents ([#292](https://github.com/ctlai95/language-server-runtimes/issues/292)) ([b3f5874](https://github.com/ctlai95/language-server-runtimes/commit/b3f58743802116100091cf9e91a447c549185e92))
+* **types:** npm publish (with out folder) ([#287](https://github.com/ctlai95/language-server-runtimes/issues/287)) ([a4f4fb2](https://github.com/ctlai95/language-server-runtimes/commit/a4f4fb21df9d13446eb737a314835f0a6a3f9f74))
+
+
+### Reverts
+
+* feat: extend tabdata interface to include support for welcome screen ([#411](https://github.com/ctlai95/language-server-runtimes/issues/411)) ([#420](https://github.com/ctlai95/language-server-runtimes/issues/420)) ([53084ad](https://github.com/ctlai95/language-server-runtimes/commit/53084adee2b375b998a15222d56a2e56593728e5))
+
+
+### Documentation
+
+* **types:** update readme ([#291](https://github.com/ctlai95/language-server-runtimes/issues/291)) ([a777c8d](https://github.com/ctlai95/language-server-runtimes/commit/a777c8d926208f6ed759e02c11b6c2ab70bdb16f))
+
 ## [0.1.31](https://github.com/aws/language-server-runtimes/compare/language-server-runtimes-types/v0.1.30...language-server-runtimes-types/v0.1.31) (2025-05-22)
 
 
