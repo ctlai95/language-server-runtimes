@@ -1,5 +1,46 @@
 # Changelog
 
+## [0.2.0](https://github.com/ctlai95/language-server-runtimes/compare/chat-client-ui-types/v0.1.62...chat-client-ui-types/v0.2.0) (2025-09-08)
+
+
+### ⚠ BREAKING CHANGES
+
+* **chat-client-ui-types:** update the version of package to next minor. This commit does not actually contain a breaking change, only to trigger a release.
+
+### Features
+
+* add protocol for export chat history ([#418](https://github.com/ctlai95/language-server-runtimes/issues/418)) ([c31fadc](https://github.com/ctlai95/language-server-runtimes/commit/c31fadc36752d3300d53fc22b59e66f07ecc75ac))
+* add stopResponse ui event ([#463](https://github.com/ctlai95/language-server-runtimes/issues/463)) ([6934a1b](https://github.com/ctlai95/language-server-runtimes/commit/6934a1b50357ebae4c8776ebf5a687b886b9c8f3))
+* extend sendToPrompt to support optional prompt messages ([#484](https://github.com/ctlai95/language-server-runtimes/issues/484)) ([90384e3](https://github.com/ctlai95/language-server-runtimes/commit/90384e3cbacfd3728fbba02f26bb4e46b4c88c34))
+* extend tabdata interface to include support for welcome screen ([#411](https://github.com/ctlai95/language-server-runtimes/issues/411)) ([68354d9](https://github.com/ctlai95/language-server-runtimes/commit/68354d9e51b17637c91bcf79e320df3fd0975678))
+* extended UI and protocol types for openning settings ([#474](https://github.com/ctlai95/language-server-runtimes/issues/474)) ([f622458](https://github.com/ctlai95/language-server-runtimes/commit/f622458baeea7df72e1b3ce91d002faecc745f89))
+* extending ui contract with dynamic feature config types ([#448](https://github.com/ctlai95/language-server-runtimes/issues/448)) ([5012832](https://github.com/ctlai95/language-server-runtimes/commit/5012832e9c9068abea92c78a4ef79fb26aa24bd1))
+* improvements for "openTab" request flow ([#366](https://github.com/ctlai95/language-server-runtimes/issues/366)) ([8aa0a83](https://github.com/ctlai95/language-server-runtimes/commit/8aa0a83e5b387e1e8df87862a6ec196ec2709731))
+* protocol extensions for chat tab actions and export features ([#433](https://github.com/ctlai95/language-server-runtimes/issues/433)) ([10019fe](https://github.com/ctlai95/language-server-runtimes/commit/10019fe875658ac46bf26b995d01416a852e2432))
+* **types:** add protocol for open file dialog for import image as context ([#564](https://github.com/ctlai95/language-server-runtimes/issues/564)) ([8c9cac7](https://github.com/ctlai95/language-server-runtimes/commit/8c9cac765137ca9f3ab08d6a79e6edac768f2c04))
+
+
+### Bug Fixes
+
+* change pair programming acknowledged to chat prompt option acknowledged ([#460](https://github.com/ctlai95/language-server-runtimes/issues/460)) ([3d9431d](https://github.com/ctlai95/language-server-runtimes/commit/3d9431dfba74825beb45dd4e6b83217c61a64b28))
+
+
+### Reverts
+
+* feat: extend tabdata interface to include support for welcome screen ([#411](https://github.com/ctlai95/language-server-runtimes/issues/411)) ([#420](https://github.com/ctlai95/language-server-runtimes/issues/420)) ([53084ad](https://github.com/ctlai95/language-server-runtimes/commit/53084adee2b375b998a15222d56a2e56593728e5))
+
+
+### Documentation
+
+* **chat-client-ui-types:** updated README ([d2a569f](https://github.com/ctlai95/language-server-runtimes/commit/d2a569fe9b839f61461661832407a4e9b0f16086))
+
+
+### Dependencies
+
+* The following workspace dependencies were updated
+  * dependencies
+    * @aws/language-server-runtimes-types bumped from ^0.1.56 to ^0.2.0
+
 ## [0.1.62](https://github.com/aws/language-server-runtimes/compare/chat-client-ui-types/v0.1.61...chat-client-ui-types/v0.1.62) (2025-08-12)
 
 
